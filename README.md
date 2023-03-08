@@ -6,7 +6,7 @@
 ![float](https://user-images.githubusercontent.com/113427991/223732016-ea570578-a415-4e0e-941c-f9cdb987f996.png)
 
 ### 2. CardUI 실습 복습
-![cardUi](https://user-images.githubusercontent.com/113427991/223732026-425723f3-0e0e-40d1-b1ff-698fddd1fbfc.png)
+![cardUi](https://user-images.githubusercontent.com/113427991/223732214-a716a52f-09a6-4b6b-8da5-6a4524a6e179.png)
 
 
   ## 2023.03.08
