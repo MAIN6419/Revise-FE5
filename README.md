@@ -15,4 +15,4 @@
 
 ### **3. GridLayout 연습-3**
 
-![grid3](https://user-images.githubusercontent.com/113427991/223730228-3a513f90-7881-4fce-93a1-624b32ced103.png)
+![grid3](https://user-images.githubusercontent.com/113427991/223731257-35eec17c-8f1f-4a76-b889-67d4a0799a64.png)
