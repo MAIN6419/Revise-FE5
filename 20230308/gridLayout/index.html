@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gridLayout</title>
+  <style>
+    .title{
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+      padding: 10px;
+      border-radius: 8px;
+      width: 200px;
+      margin-left: 10px;
+      text-align: center;
+    }
+    .gridContainer1 > *,
+    .gridContainer2 > *,
+    .gridContainer3 > *
+     {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      font-weight: bold;
+      color: white;
+    }
+
+     /* 1.Layout */
+    .gridContainer1 {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: 1fr 3fr 1fr;
+      height: 500px;
+      gap: 10px;
+    }
+    .gridContainer1 .gridItem1 {
+      background-color: gold;
+      grid-area : 1/1/2/4;
+    }
+    .gridContainer1 .gridItem2{
+      background-color: skyblue;
+      grid-area: 2/1/3/1;
+    }
+    .gridContainer1 .gridItem3 {
+      background-color: yellowgreen;
+      grid-area: 2/2/3/3;
+    }
+    .gridContainer1 .gridItem4 {
+      background-color: lightcoral;
+      grid-area: 2/3/3/4;
+    }
+    .gridContainer1 .gridItem5 {
+      background-color: violet;
+      grid-area: 3/1/4/4;
+    }
+
+    /* 2.Layout */
+    .gridContainer2 {
+      display: grid;
+      height: 500px;
+      gap: 10px;
+      grid-template-columns: 2fr 2fr 3fr;
+      grid-template-rows: 2fr 4fr 2fr 2fr 2fr;
+    }
+    .gridContainer2 .gridItem1 {
+      background-color: gold;
+      grid-area: 1/1/2/2;
+    }
+    .gridContainer2 .gridItem2{
+      background-color: skyblue;
+      grid-area: 1/2/2/4;
+    }
+    .gridContainer2 .gridItem3 {
+      background-color: yellowgreen;
+      grid-area: 2/1/3/3
+    }
+    .gridContainer2 .gridItem4 {
+      background-color: lightcoral;
+      grid-area: 2/3/3/4
+    }
+    .gridContainer2 .gridItem5 {
+      background-color: violet;
+      grid-area: 3/1/4/2;
+    }
+    .gridContainer2 .gridItem6 {
+      background-color: aqua;
+      grid-area: 3/2/4/3;
+    }
+    .gridContainer2 .gridItem7 {
+      background-color: cadetblue;
+      grid-area: 3/3/4/4;
+    }
+    .gridContainer2 .gridItem8 {
+      background-color: coral;
+      grid-area: 4/1/6/2;
+    }
+    .gridContainer2 .gridItem9 {
+      background-color: deeppink;
+      grid-area: 4/2/5/4;
+    }
+    .gridContainer2 .gridItem10 {
+      background-color: green;
+      grid-area: 5/2/6/3;
+    }
+    .gridContainer2 .gridItem11 {
+      background-color: navy;
+      grid-area: 5/3/6/4;
+    }
+
+      /* 3.Layout */
+    .gridContainer3 {
+      display: grid;
+      height: 500px;
+      gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 2fr 3fr 3fr 4fr;
+    }
+    .gridContainer3 .gridItem1 {
+      background-color: gold;
+      grid-area: 1/1/3/3;
+    }
+    .gridContainer3 .gridItem2{
+      background-color: skyblue;
+      grid-area: 1/3/5/4;
+    }
+    .gridContainer3 .gridItem3 {
+      background-color: yellowgreen;
+      grid-area: 1/4/2/6;
+    }
+    .gridContainer3 .gridItem4 {
+      background-color: lightcoral;
+      grid-area: 2/4/3/6
+    }
+    .gridContainer3 .gridItem5 {
+      background-color: violet;
+      grid-area: 3/1/6/2
+    }
+    .gridContainer3 .gridItem6 {
+      background-color: aqua;
+      grid-area:  3/2/4/3;
+    }
+    .gridContainer3 .gridItem7 {
+      background-color: cadetblue;
+      grid-area: 3/4/4/5;
+    }
+    .gridContainer3 .gridItem8 {
+      background-color: coral;
+      grid-area: 3/5/4/6;
+    }
+    .gridContainer3 .gridItem9 {
+      background-color: deeppink;
+        grid-area: 4/2/5/3;
+    } 
+    .gridContainer3 .gridItem10 {
+      background-color: green;
+      grid-area: 4/4/5/5;
+    }
+    .gridContainer3 .gridItem11 {
+      background-color: navy;
+      grid-area: 4/5/5/6;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="title">1. Layout-1</h1>
+  <div class="gridContainer1">
+    <div class="gridItem1">A</div>
+    <div class="gridItem2">B</div>
+    <div class="gridItem3">C</div>
+    <div class="gridItem4">D</div>
+    <div class="gridItem5">E</div>
+  </div>
+  <h1 class="title">2. Layout-2</h1>
+  <div class="gridContainer2">
+    <div class="gridItem1">A</div>
+    <div class="gridItem2">B</div>
+    <div class="gridItem3">C</div>
+    <div class="gridItem4">D</div>
+    <div class="gridItem5">E</div>
+    <div class="gridItem6">F</div>
+    <div class="gridItem7">G</div>
+    <div class="gridItem8">H</div>
+    <div class="gridItem9">I</div>
+    <div class="gridItem10">J</div>
+    <div class="gridItem11">K</div>
+  </div>
+  <h1 class="title">3. Layout-3</h1>
+  <div class="gridContainer3">
+    <div class="gridItem1">A</div>
+    <div class="gridItem2">B</div>
+    <div class="gridItem3">C</div>
+    <div class="gridItem4">D</div>
+    <div class="gridItem5">E</div>
+    <div class="gridItem6">F</div>
+    <div class="gridItem7">G</div>
+    <div class="gridItem8">H</div>
+    <div class="gridItem9">I</div>
+    <div class="gridItem10">J</div>
+    <div class="gridItem11">K</div>
+  </div>
+</body>
+</html>
