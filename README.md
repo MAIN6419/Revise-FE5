@@ -1,8 +1,13 @@
 # 📖 FE-5기 수업 복습
 
   ## 2023.03.07
-> 1. FloatLayout 연습
-> 2. CardUI 실습 복습
+### 1. FloatLayout 연습
+
+![float](https://user-images.githubusercontent.com/113427991/223732016-ea570578-a415-4e0e-941c-f9cdb987f996.png)
+
+### 2. CardUI 실습 복습
+![cardUi](https://user-images.githubusercontent.com/113427991/223732026-425723f3-0e0e-40d1-b1ff-698fddd1fbfc.png)
+
 
   ## 2023.03.08
 ### **1. GridLayout 연습-1**
