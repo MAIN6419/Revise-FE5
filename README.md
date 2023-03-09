@@ -21,3 +21,9 @@
 ### **3. GridLayout 연습-3**
 
 ![grid3](https://user-images.githubusercontent.com/113427991/223731257-35eec17c-8f1f-4a76-b889-67d4a0799a64.png)
+
+ ## 2023.03.09
+![cardUI](https://user-images.githubusercontent.com/113427991/224032829-6fc1f524-7206-4be0-8053-bb999e46e37b.png)
+### 1. Grid-CardUI 실습 연습
+### 2. Flex-CardUI 실습 연습
+### 3. Float-CardUI 실습 연습
