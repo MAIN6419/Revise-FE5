@@ -1,0 +1,80 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+* {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Pretendard', 'sans serif';
+  font-style: normal;
+  
+}
+body{
+  background-color: #E5E5E5;
+}
+.gridContainer {
+  display: grid;
+  max-width: min(1224px, calc(100% - 60px));
+  margin: 56px auto;
+  grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+  gap: 32px 24px;
+}
+.cardWrapper{
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+.cardHead{
+  padding: 19px 16px;
+}
+.cardUserImg{
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: top;
+}
+.cardTitleWrapper{
+  display: inline-block;
+  margin-left: 16px;
+}
+.cardTitle{
+  display: inline-block;
+  font-size: 16px;
+}
+.cardTag{
+  display: block;
+  font-size: 12px;
+  color: #5A6A72;
+;
+}
+.cardImgWrapper{
+  position: relative;
+  height: 0;
+  padding-bottom: calc(100% * 196/288);
+}
+.cardImg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cardText {
+  margin: 10px 16px 0px 16px;
+  display: -webkit-box;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 20px;
+  font-size: 12px;
+  color: #5A6A72;
+
+}
+.cardRead{
+  display: inline-block;
+  margin: 19px 0px 16px 22px;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 14px;
+}
